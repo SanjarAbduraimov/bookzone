@@ -1,8 +1,5 @@
-$qora: #191919;
-$btnonecolor: #152540;
-$btntwocolor: #c9ac8c;
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./utils/spacing";
+@import "./base/typography";
+@import "./components/index";
