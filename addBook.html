@@ -4,29 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
+    <title>Add Book</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.css" />
   </head>
 
   <body>
-    <section class="signUp">
+    <section class="addBook">
       <div class="container">
         <div class="row">
-          <div class="col-6 d-md-block d-none  left">
-            <img class="img" src="./assets/img/SignUp.png" alt="" />
+          <div class="col-6 d-lg-block d-none leftt">
+            <img class="img" src="./assets/img/addBook.png" alt="" />
+            <div class="informs">
+              <h1 class="informs__title">Ulugbek hazinasi</h1>
+              <button class="form__button btn" type="submit">
+                Upload cover
+              </button>
+            </div>
           </div>
           <div class="col-12 col-lg-6 right">
             <form class="form" action="" method="post" id="login">
-              <h1 class="form__title">Sign up</h1>
-              <p class="form__text">Already have an account?
-                  <a class="form__link" href="./signin.html" id="linkCreateAccount">Sign in</a></span>
-              </p>
+              <h1 class="form__title">Add book</h1>
               <div class="form__input--group">
                 <input
                   class="input form__input"
                   autofocus
-                  placeholder="First name"
+                  placeholder="Title"
                   type="text"
                 />
               </div>
@@ -34,15 +37,7 @@
                 <input
                   class="input form__input"
                   autofocus
-                  placeholder="Last name"
-                  type="text"
-                />
-              </div>
-              <div class="form__input--group">
-                <input
-                  class="input form__input"
-                  autofocus
-                  placeholder="Phone"
+                  placeholder="Pages"
                   type="number"
                 />
               </div>
@@ -50,19 +45,49 @@
                 <input
                   class="input form__input"
                   autofocus
-                  placeholder="Email"
-                  type="email"
+                  placeholder="Genre"
+                  type="text"
                 />
               </div>
               <div class="form__input--group">
                 <input
-                  class="input form__input form__input--error"
+                  class="input form__input"
                   autofocus
-                  placeholder="Password"
-                  type="password"
+                  placeholder="Year"
+                  type="datetime"
                 />
               </div>
-              <button class="form__button btn" type="submit">Next Step</button>
+              <div class="form__input--group">
+                <input
+                  class="input form__input"
+                  autofocus
+                  placeholder="Price"
+                  type="number"
+                />
+              </div>
+              <div class="form__input--group">
+                <input
+                  class="input form__input"
+                  autofocus
+                  placeholder="Country"
+                  type="text"
+                />
+              </div>
+              <div class="form__input--group">
+                <input
+                  class="input form__input"
+                  autofocus
+                  placeholder="Author"
+                  type="text"
+                />
+              </div>
+              <div class="form__input--group">
+                <textarea
+                  class="input form__input form__input--error"
+                  placeholder="Description"
+                ></textarea>
+              </div>
+              <button class="form__button btn" type="submit">Create</button>
             </form>
           </div>
         </div>

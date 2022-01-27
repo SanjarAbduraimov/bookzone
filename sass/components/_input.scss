@@ -1,8 +1,10 @@
 .input {
     background-color: $mainWhite;
-    border: $muted 0.1rem;
+    border: solid $muted 0.1rem;
+    box-sizing: border-box;
     border-radius: 1rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2.56rem;
+    outline: none;
 }
 .input::placeholder {
     color: $muted;
