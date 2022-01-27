@@ -4,4 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #191919;
+  width: 100%;
+  min-height: 100%;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

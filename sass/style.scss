@@ -1,8 +1,12 @@
 $qora: #191919;
+$mainBlack: #191919;
 $btnonecolor: #152540;
 $btntwocolor: #c9ac8c;
+$mainWhite: white;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+@import "./pages/bookshome";
