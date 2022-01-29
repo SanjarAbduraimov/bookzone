@@ -9,4 +9,16 @@ $mainWhite: white;
   box-sizing: border-box;
 }
 
+@import "./utils/verible"; //1
+
+@import "./utils/mixins"; //2
+
+@import "./utils/media"; //3
+
+@import "./utils/grid"; //4
+
 @import "./pages/bookshome";
+
+@import "./pages/header";
+
+@import "./utils/utils";

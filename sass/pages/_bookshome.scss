@@ -1,6 +1,40 @@
 body {
   background: $mainBlack;
+  min-width: 50%;
+  min-height: 100px;
+  color: $mainwhite;
+  background-image: url(../../assets/img/booksHome/background/ornament.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-self: center;
   width: 100%;
-  min-height: 100%;
-  color: $mainWhite;
+  margin: auto;
+  @include respond(tab-por) {
+    width: 70%;
+  }
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px #000, 1px 1px 5px #000;
+  margin-top: 200px;
+  background: $mainBlack;
+  .search__title {
+    text-align: center;
+    .search__img {
+      width: auto;
+    }
+  }
+  .search__issue {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .search__btn {
+    line-height: 16px;
+    border-radius: 15px;
+    border: transparent;
+  }
 }
