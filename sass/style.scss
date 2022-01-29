@@ -1,24 +1,8 @@
-$qora: #191919;
-$mainBlack: #191919;
-$btnonecolor: #152540;
-$btntwocolor: #c9ac8c;
-$mainWhite: white;
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@import "./utils/verible"; //1
-
-@import "./utils/mixins"; //2
-
-@import "./utils/media"; //3
-
-@import "./utils/grid"; //4
-
-@import "./pages/bookshome";
-
-@import "./pages/header";
-
-@import "./utils/utils";
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./utils/spacing";
+@import "./base/typography";
+@import "./components/index";
+@import "./pages/signin";
+@import "./pages/signup";
+@import "./pages/addBook";

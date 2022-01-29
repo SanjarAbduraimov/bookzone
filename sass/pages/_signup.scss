@@ -1,0 +1,12 @@
+.signUp {
+  .form {
+    margin: 5rem 10rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .signUp {
+    .form {
+      margin: 3rem 5rem;
+    }
+  }
+}
