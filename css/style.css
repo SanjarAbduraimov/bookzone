@@ -5263,11 +5263,6 @@ section .container {
   background-color: #ac957c;
   height: 100vh;
 }
-.left .img {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-}
 
 .form {
   margin: 20% 10rem 0 10rem;
@@ -5302,6 +5297,11 @@ section .container {
   transform: scale(0.98);
 }
 
+@media screen and (max-width: 991px) {
+  .form {
+    margin: 5rem 5rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .form {
     margin: 5rem 10rem;
@@ -5309,36 +5309,65 @@ section .container {
 }
 @media screen and (max-width: 576px) {
   .form {
-    margin: 3rem 5rem;
+    margin: 5rem 5rem;
   }
+}
+@media screen and (max-width: 375px) {
+  .form {
+    margin: 5rem auto;
+  }
+}
+.signUp .img {
+  margin: 0rem auto;
 }
 .signUp .form {
   margin: 5rem 10rem;
 }
 
+@media screen and (max-width: 991px) {
+  .signUp .img {
+    margin: 5rem auto;
+  }
+  .signUp .form {
+    margin: 5rem 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .signUp .form {
+    margin: 5rem 10rem;
+  }
+}
 @media screen and (max-width: 576px) {
+  .signUp .img {
+    margin: 5rem 5rem;
+  }
   .signUp .form {
     margin: 3rem 5rem;
   }
 }
-.addBook .leftt {
-  background-color: #F3F3F3ED;
+@media screen and (max-width: 375px) {
+  .signUp .form {
+    margin: 5rem auto;
+  }
 }
-.addBook .leftt .img {
+.addBook .left {
+  background-color: #f3f3f3ed;
+}
+.addBook .left .img {
   height: 40rem;
-  width: 33rem;
-  margin: 3rem 10rem 1rem 15rem;
+  margin: 3rem auto;
+  object-fit: cover;
 }
-.addBook .leftt .informs {
+.addBook .left .informs {
   margin: 1rem 15rem;
 }
-.addBook .leftt .informs h1 {
+.addBook .left .informs h1 {
   font-weight: 900;
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 0.5rem;
 }
-.addBook .leftt .informs button {
+.addBook .left .informs button {
   width: 100%;
 }
 .addBook .form {
@@ -5357,6 +5386,25 @@ section .container {
 }
 .addBook .form .form__button {
   margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .addBook .form {
+    margin: 5rem 10rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .addBook .img {
+    margin: 5rem 5rem;
+  }
+  .addBook .form {
+    margin: 3rem 5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .addBook .form {
+    margin: 5rem auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

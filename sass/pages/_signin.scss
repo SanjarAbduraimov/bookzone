@@ -8,11 +8,6 @@ section {
 .left {
   background-color: #ac957c;
   height: 100vh;
-  .img {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-  }
 }
 .form {
   margin: 20% 10rem 0 10rem;
@@ -46,6 +41,11 @@ section {
     }
   }
 }
+@media screen and (max-width:991px) {
+  .form {
+    margin: 5rem 5rem;
+  }
+}
 @media screen and (max-width:768px) {
   .form {
     margin: 5rem 10rem;
@@ -53,6 +53,11 @@ section {
 }
 @media screen and (max-width:576px) {
   .form {
-    margin: 3rem 5rem;
+    margin: 5rem 5rem;
+  }
+}
+@media screen and (max-width:375px) {
+  .form {
+    margin: 5rem auto;
   }
 }
