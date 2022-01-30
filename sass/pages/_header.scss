@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: $mainBg;
   height: 80px;
   @include respond(tab-por) {
     justify-content: unset;
@@ -121,7 +122,6 @@
   right: 0;
   left: 0;
   z-index: 1040;
-  // min-width: 100%;
 }
 
 .header__line::before {

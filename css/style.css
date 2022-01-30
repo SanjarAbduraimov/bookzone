@@ -5433,6 +5433,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #191919;
   height: 80px;
 }
 @media screen and (min-width: 768px) {
@@ -5996,6 +5997,12 @@ section .container {
   letter-spacing: 0em;
   text-align: left;
 }
+.bookinfo .bookinfo__qoute .bookinfo__qoute-links {
+  text-align: end;
+}
+.bookinfo .bookinfo__qoute .bookinfo__qoute-links a {
+  color: #ffffff;
+}
 .bookinfo .bookinfo__qoute .bookinfo__img {
   position: absolute;
   height: 250px;
@@ -6016,6 +6023,31 @@ section .container {
 
 .bookrecommend {
   min-height: 100px;
+}
+.bookrecommend .bookrecommend__title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media screen and (min-width: 375px) {
+  .bookrecommend .bookrecommend__title-wrapper {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .bookrecommend .bookrecommend__title-wrapper {
+    font-size: 25px;
+  }
+}
+.bookrecommend .bookrecommend__title-wrapper .bookrecommend__title {
+  color: #c9ac8c;
+}
+.bookrecommend .bookrecommend__title-wrapper .bookrecommend__title-link {
+  color: white;
 }
 .bookrecommend .bookrecommend__card-wrapper {
   flex-wrap: nowrap;

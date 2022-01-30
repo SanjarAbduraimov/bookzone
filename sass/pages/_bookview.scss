@@ -163,6 +163,12 @@
       letter-spacing: 0em;
       text-align: left;
     }
+    .bookinfo__qoute-links {
+      text-align: end;
+      a {
+        color: $mainWhite;
+      }
+    }
     .bookinfo__img {
       position: absolute;
       height: 250px;
@@ -185,6 +191,27 @@
 
 .bookrecommend {
   min-height: 100px;
+  .bookrecommend__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+    @include respond(mobile-M) {
+      font-size: 20px;
+    }
+    @include respond(tab-land) {
+      font-size: 25px;
+    }
+    letter-spacing: 0em;
+    text-align: left;
+    .bookrecommend__title {
+      color: rgba(201, 172, 140, 1);
+    }
+    .bookrecommend__title-link {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
   .bookrecommend__card-wrapper {
     flex-wrap: nowrap;
     overflow-x: scroll;
