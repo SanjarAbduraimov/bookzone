@@ -1,8 +1,25 @@
 @import "./utils/variables";
+
+@import "./utils/media";
+
 @import "./base/normalize";
+
 @import "./utils/spacing";
+
 @import "./base/typography";
+
 @import "./components/index";
+
+@import "./pages/header";
+
+@import "./pages/bookshome";
+
 @import "./pages/signin";
+
 @import "./pages/signup";
+
 @import "./pages/addBook";
+
+@import "./pages/bookview";
+
+@import "./utils/utils";
