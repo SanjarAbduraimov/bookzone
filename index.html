@@ -1,17 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Books Home</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./assets/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
-    <title>BADIIYAT</title>
-</head>
+  <body>
+    <div class="container header__line">
+      <header class="header">
+        <a class="logo" href="/">
+          <img
+            class="logo__img"
+            src="./assets/img/logo/Badiiyat.png"
+            alt="logo-img"
+          />
+        </a>
+        <input type="checkbox" name="" id="checkbox" />
+        <label for="checkbox">
+          <span class="header__menu-item"></span>
+          <span class="header__menu-item"></span>
+          <span class="header__menu-item"></span>
+        </label>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__link" href="#"> bosh sahifa </a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#"> nasr </a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#"> nazm </a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#"> maqolalar </a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#"> forum </a>
+          </li>
+        </ul>
+        <div class="header__author me-5 me-sm-0">
+          <img
+            src="./assets/img/booksHome/logo/image 6.png"
+            alt="author-logo"
+          />
+          <i class="fas fa-angle-down ms-2"></i>
+        </div>
+      </header>
+    </div>
 
-<body>
+    <section class="booksearch">
+      <div
+        class="container container-sm container-md container-lg container-xl container-xxl p-5"
+      >
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="booksearch__title">
+                <img
+                  class="booksearch__img"
+                  src="./assets/img/booksHome/search/Qidirish.png"
+                  alt="booksearch-img"
+                />
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-8">
+                <input
+                  class="booksearch__issue p-sm-3 p-2 ms-lg-10"
+                  type="text"
+                  placeholder="Adiblar, kitoblar, audiolar, maqolalar..."
+                />
+              </div>
+              <div class="col-4">
+                <button class="booksearch__btn btn p-sm-3 p-2 ms-lg-13">
+                  <i class="fab fa-searchengin"></i>
+                  Izlash
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bookcategories">
+      <div
+        class="container-sm container-md container-lg container-xl container-xxl"
+      >
+        <div class="row mb-5">
+          <div class="col">
+            <h1 class="bookcategories__title">asosiy kategoriyalar</h1>
+          </div>
+        </div>
+        <ul class="bookcategories__list">
+          <li class="bookcategories__list-item me-md-5">
+            <a class="bookcategories__link" href="#"> Temuriylar davri </a>
+          </li>
+          <li class="bookcategories__list-item me-md-5">
+            <a class="bookcategories__link" href="#"> Jadid adabiyoti </a>
+          </li>
+          <li class="bookcategories__list-item me-md-5">
+            <a class="bookcategories__link" href="#"> Sovet davri </a>
+          </li>
+          <li class="bookcategories__list-item">
+            <a class="bookcategories__link" href="#"> Mustaqillik davri </a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bookcategories__card">
+              <div class="bookcategories__card-img mb-3">
+                <img
+                  src="./assets/img/booksHome/books/image -5.png"
+                  alt="books img"
+                />
+              </div>
+              <div class="bookcategories__card-title">dunyoning ishlari</div>
+              <div class="bookcategories__card-author">O'tkir Hoshimov</div>
+              <div class="bookcategories__card-comments">
+                <i class="fas fa-star"></i>
+                4.1 - 3400 ta fikrlar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./js/router.js"></script>
-</body>
-
+  </body>
 </html>

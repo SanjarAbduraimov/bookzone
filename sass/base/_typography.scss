@@ -13,3 +13,13 @@ body {
 .text__muted {
   color: $muted;
 }
+
+@font-face {
+  font-family: rotterburg;
+  src: url(../../assets/fonts/rotterburg_stylish/Rotterburg\ Display\ Font.otf);
+}
+
+@font-face {
+  font-family: steinbeck;
+  src: url(../../assets/fonts/steinbeck/SteinbeckFC-Reg.otf);
+}
