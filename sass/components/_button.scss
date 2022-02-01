@@ -17,6 +17,9 @@
   cursor: pointer;
   transition: transform 0.2s ease;
 }
+.btn-danger{
+  background-color: $mainDanger;
+}
 .btn:hover {
   background-color: $mainWhite;
   color: $darkBlue;
@@ -24,3 +27,4 @@
 .btn::first-letter {
   text-transform: uppercase;
 }
+
