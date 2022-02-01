@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Book view</title>
   </head>
-  <body>
+  <body id="bookview">
     <img
       class="bookview__bg-img"
       src="./assets/img/booksHome/background/ornament.png"
@@ -60,13 +60,15 @@
             <a class="header__link" href="#"> forum </a>
           </li>
         </ul>
-        <div class="header__author me-5 me-sm-0">
-          <img
-            src="./assets/img/booksHome/logo/image 6.png"
-            alt="author-logo"
-          />
-          <i class="fas fa-angle-down ms-2"></i>
-        </div>
+        <select class="header__author me-5 me-sm-0">
+          <option value="0">
+            <img
+              src="./assets/img/booksHome/logo/image 6.png"
+              alt="author-logo"
+            />
+          </option>
+          <!-- <i class="fas fa-angle-down ms-2"></i> -->
+        </select>
       </header>
     </div>
 
