@@ -1,6 +1,6 @@
-section {
+.signIn {
   max-width: 100vw;
-  height: 100vh;
+  max-height: 100vh;
   .container {
     max-width: 100% !important;
   }
@@ -8,6 +8,9 @@ section {
 .left {
   background-color: #ac957c;
   height: 100vh;
+  .img {
+    height: 100%;
+  }
 }
 .form {
   margin: 20% 10rem 0 10rem;
@@ -41,23 +44,23 @@ section {
     }
   }
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   .form {
     margin: 5rem 5rem;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .form {
     margin: 5rem 10rem;
   }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .form {
     margin: 5rem 5rem;
   }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   .form {
-    margin: 5rem auto;
+    margin: 3rem auto;
   }
 }

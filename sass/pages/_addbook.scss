@@ -1,8 +1,12 @@
 .addBook {
+  .container {
+    max-width: 100%;
+  }
   .left {
     background-color: #f3f3f3ed;
     .img {
       height: 40rem;
+      display: block !important;
       margin: 3rem auto;
       object-fit: cover;
     }
@@ -37,6 +41,21 @@
     }
   }
 }
+@media screen and (max-width: 991px) {
+  .addBook {
+    .form {
+      margin: 1rem 5rem;
+    }
+    .left {
+      .img {
+        height: 35rem;
+      }
+      .informs {
+        margin: 1rem 10rem;
+      }
+    }
+  }
+}
 @media screen and (max-width: 768px) {
   .addBook {
     .form {
@@ -57,7 +76,7 @@
 @media screen and (max-width: 375px) {
   .addBook {
     .form {
-      margin: 5rem auto;
+      margin: 3rem auto;
     }
   }
 }

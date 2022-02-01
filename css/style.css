@@ -5251,17 +5251,20 @@ body {
   font-size: 1.4rem;
 }
 
-section {
+.signIn {
   max-width: 100vw;
-  height: 100vh;
+  max-height: 100vh;
 }
-section .container {
+.signIn .container {
   max-width: 100% !important;
 }
 
 .left {
   background-color: #ac957c;
   height: 100vh;
+}
+.left .img {
+  height: 100%;
 }
 
 .form {
@@ -5314,11 +5317,14 @@ section .container {
 }
 @media screen and (max-width: 375px) {
   .form {
-    margin: 5rem auto;
+    margin: 3rem auto;
   }
 }
+.signUp .container {
+  max-width: 100%;
+}
 .signUp .img {
-  margin: 0rem auto;
+  height: 100%;
 }
 .signUp .form {
   margin: 5rem 10rem;
@@ -5347,14 +5353,18 @@ section .container {
 }
 @media screen and (max-width: 375px) {
   .signUp .form {
-    margin: 5rem auto;
+    margin: 3rem auto;
   }
+}
+.addBook .container {
+  max-width: 100%;
 }
 .addBook .left {
   background-color: #f3f3f3ed;
 }
 .addBook .left .img {
   height: 40rem;
+  display: block !important;
   margin: 3rem auto;
   object-fit: cover;
 }
@@ -5388,6 +5398,17 @@ section .container {
   margin-top: 0;
 }
 
+@media screen and (max-width: 991px) {
+  .addBook .form {
+    margin: 1rem 5rem;
+  }
+  .addBook .left .img {
+    height: 35rem;
+  }
+  .addBook .left .informs {
+    margin: 1rem 10rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .addBook .form {
     margin: 5rem 10rem;
@@ -5403,7 +5424,7 @@ section .container {
 }
 @media screen and (max-width: 375px) {
   .addBook .form {
-    margin: 5rem auto;
+    margin: 3rem auto;
   }
 }
 

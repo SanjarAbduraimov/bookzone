@@ -1,6 +1,9 @@
 .signUp {
+  .container {
+    max-width: 100%;
+  }
   .img {
-    margin: 0rem auto;
+    height: 100%;
   }
   .form {
     margin: 5rem 10rem;
@@ -13,10 +16,13 @@
     }
     .form {
       margin: 5rem 5rem;
+      .fef {
+        color: rebeccapurple;
+      }
     }
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .signUp {
     .form {
       margin: 5rem 10rem;
@@ -33,10 +39,10 @@
     }
   }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   .signUp {
     .form {
-      margin: 5rem auto;
+      margin: 3rem auto;
     }
   }
 }
