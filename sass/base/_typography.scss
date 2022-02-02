@@ -1,22 +1,25 @@
 body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
+
 .lead {
-  font-size: 2rem;
-  font-weight: 300;
+    font-size: 2rem;
+    font-weight: 300;
 }
+
 .text__center {
-  text-align: center;
+    text-align: center;
 }
+
 .text__muted {
-  color: $muted;
+    color: $muted;
 }
 
 @font-face {
-  font-family: rotterburg;
-  src: url(../../assets/fonts/rotterburg_stylish/Rotterburg\ Display\ Font.otf);
+    font-family: rotterburg;
+    src: url(../../assets/fonts/rotterburg_stylish/Rotterburg\ Display\ Font.otf);
 }
 
 @font-face {

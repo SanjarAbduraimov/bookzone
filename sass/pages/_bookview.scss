@@ -18,9 +18,18 @@
     font-family: steinbeck;
     padding-top: 140px;
     min-height: 100vh;
+    .col-12 {
+      flex-shrink: 1;
+    }
     .bookview__img {
-      width: auto;
+      width: 500px;
       height: auto;
+      @include respond(tab-por) {
+        height: 60%;
+      }
+      @include respond(lg) {
+        height: 100%;
+      }
     }
     .bookview__title {
       font-family: rotterburg;
