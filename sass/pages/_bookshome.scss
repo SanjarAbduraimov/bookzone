@@ -18,11 +18,11 @@
     @include respond(tab-por) {
       width: 60%;
     }
-    border-radius: 6px;
-    box-shadow: 1px 1px 5px #000, 1px 1px 5px #000;
     margin-top: 200px;
-    background: $secondaryDark;
     .container {
+      border-radius: 6px;
+      background: $secondaryDark;
+      box-shadow: 1px 1px 5px #000, 1px 1px 5px #000;
       .row {
         flex-wrap: nowrap;
       }

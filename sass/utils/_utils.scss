@@ -176,12 +176,12 @@ $breakpoints: (
 }
 
 .my-auto {
-  margin: auto 0 !important;
+  margin: auto 0!important;
 }
 
 @for $i from 0 through 5 {
   .my-#{$i} {
-    margin: 0 $i * 5px !important;
+    margin:  $i * 5px 0 !important;
   }
 }
 
@@ -189,7 +189,7 @@ $breakpoints: (
   @media screen and (min-width: map-get($breakpoints, $mq )) {
     @for $i from 0 through 5 {
       .my-#{$mq}-#{$i} {
-        margin: 0 $i * 5px !important;
+        margin: $i * 5px 0!important;
       }
     }
   }
@@ -199,7 +199,7 @@ $breakpoints: (
   @media screen and (min-width: map-get($breakpoints, $mq )) {
     // @for $i from 0 through 5 {
     .my-#{$mq}-auto {
-      margin: auto 0 !important;
+      margin: auto 0!important;
     }
     // }
   }

@@ -20,8 +20,10 @@
   </head>
 
   <body id="booksHome">
-    <div class="container header__line">
-      <header class="header">
+    <header class="header">
+      <div
+        class="container-sm container-md container-lg container-xl container-xxl"
+      >
         <a class="logo" href="/">
           <img
             class="logo__img"
@@ -52,21 +54,39 @@
             <a class="header__link" href="#"> forum </a>
           </li>
         </ul>
-        <div class="header__author me-5 me-sm-0">
-          <img
-            src="./assets/img/booksHome/logo/image 6.png"
-            alt="author-logo"
-          />
-          <i class="fas fa-angle-down ms-2"></i>
-        </div>
-      </header>
-    </div>
+        <details class="header__author me-5 me-sm-0">
+          <summary>
+            <img
+              src="./assets/img/booksHome/logo/image 6.png"
+              alt="author-logo"
+            />
+          </summary>
+          <div class="header__author-item p-4">
+            <p>
+              <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+            <p>
+              <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+            <p>
+              <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+            <p>
+              <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+            <p>
+              <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+          </div>
+        </details>
+      </div>
+    </header>
 
     <section class="booksearch">
       <div
         class="container container-sm container-md container-lg container-xl container-xxl p-5"
       >
-        <div class="row">
+        <div class="row my-3">
           <div class="col">
             <div class="row">
               <div class="booksearch__title">
