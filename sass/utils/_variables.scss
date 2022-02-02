@@ -4,25 +4,8 @@ $secondaryDark: #1d1d1d;
 $mainDanger: #c9ac8c;
 $darkBlue: #152540;
 $muted: #b4b4bb;
-
 .mainBg {
-  background-color: #191919;
-}
-
-.mainWhite {
-  color: #ffffff;
-}
-
-.maindanger {
-  color: #c9ac8c;
-}
-
-.darkBlue {
-  color: #152540;
-}
-
-.secondaryDark {
-  color: #1d1d1d;
+    background-color: #191919;
 }
 
 $mainblack: #1d1d1d;
@@ -30,7 +13,6 @@ $mainblue: rgba(55, 142, 181, 0.9);
 $mainwhite: white;
 $mainred: #ee5514;
 $mainyellow: #fdc134;
-
 @function sum($a, $b) {
-  @return $a + $b;
+    @return $a+$b;
 }
